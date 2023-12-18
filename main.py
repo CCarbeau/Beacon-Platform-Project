@@ -5,7 +5,7 @@ import streamlit as sl
 
 def main():
 
-    data = pd.read_csv("Data/github_dataset.csv")
+    data = pd.read_csv("github_dataset.csv")
     data = data.dropna()
     data = data.drop_duplicates()
     data = data.set_index(data["repositories"])

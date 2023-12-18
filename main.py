@@ -46,7 +46,7 @@ def main():
 
     sl.header("Python's Popularity:")
     sl.pyplot(fig1)
-    sl.text("Python is widely known as one of the most popular programming languages, \nespecially amongst first time coders. Its easy syntax, large and helpful community,\nand powerful capabilites all make Python a very attractive programming language to \nlearn. The GitHub repository data examined in this report statistically confirms \nPython's popularity. Of the 1000 GitHub repositories examined, Python was the main \nlanguage in 17.8 percent of them, only second to JavaScript.")
+    sl.text("Python is widely known as one of the most popular programming languages, \nespecially amongst first time coders. Its easy syntax, large and helpful community,\nand powerful capabilites all make Python a very attractive programming language to \nlearn. The GitHub repository data examined in this report statistically confirms \nPython's popularity. Of the 1000 GitHub repositories examined, Python was the main \nlanguage in 17.8 percent of them, second only to JavaScript.")
 
     fig, ax = plt.subplots()
     plt.xlabel("Number of Contributors")
@@ -86,10 +86,12 @@ def main():
                                     (stats.loc["Total","Total Errors"]-stats.loc["JavaScript","Total Errors"]-stats.loc["Python","Total Errors"]-stats.loc["HTML","Total Errors"]-stats.loc["Java","Total Errors"]-stats.loc["C++","Total Errors"]-stats.loc["C","Total Errors"]-stats.loc["C#","Total Errors"]-stats.loc["Objective-C","Total Errors"]-stats.loc["CSS","Total Errors"])/(stats.loc["Total","Total Contributors"]-stats.loc["JavaScript","Total Contributors"]-stats.loc["Python","Total Contributors"]-stats.loc["HTML","Total Contributors"]-stats.loc["Java","Total Contributors"]-stats.loc["C++","Total Contributors"]-stats.loc["C","Total Contributors"]-stats.loc["C#","Total Contributors"]-stats.loc["Objective-C","Total Contributors"]-stats.loc["CSS","Total Contributors"])],
                                 color = "orange")
     sl.header("Python's Issue with Issues:")
+    sl.text("The positive correlation between number of repository issues and contributors is most prevalent in python.")
     sl.pyplot(fig2)
     sl.text("As shown by the figure above, Python has the highest issues per contributor rate \namongst all programming languages with a ratio of 1.17 issues per contributor. \n\nIn addition, Python has a high issues per project ratio of 9.755:")
 
     fig3, ax3 = plt.subplots()
+    sl.text("Python's high issues per contributor and issues per project rate illustrate the \nprogramming language's need for a mechanism to ease collaborative integration.")
     plt.ylabel("Issues per Project")
     plt.xlabel("Programming Language")
     ax3.bar(x=["Python","JavaScript","HTML","Java","C Variants","Other"], height = [stats.loc["Python","Total Errors"]/stats.loc["Python","Total Projects"],

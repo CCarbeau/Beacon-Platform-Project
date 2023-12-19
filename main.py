@@ -88,7 +88,7 @@ def main():
     sl.header("Python's Issue with Issues:")
     sl.text("The positive correlation between number of repository issues and contributors is\nmost prevalent in python.")
     sl.pyplot(fig2)
-    sl.text("As shown by the figure above, Python has the highest issues per contributor rate \namongst all programming languages with a ratio of 1.17 issues per contributor. \n\nIn addition, Python has a high issues per project ratio of 9.755:")
+    sl.text("As shown by the figure above, Python has the highest issues per contributor rate \namongst all programming languages with a rate of 1.17 issues per contributor. \n\nIn addition, Python has a high issues per project rate of 9.755:")
 
     fig3, ax3 = plt.subplots()
 
@@ -104,7 +104,7 @@ def main():
     sl.pyplot(fig3)
     sl.text("Python's high issues per contributor and issues per project rate illustrate the \nprogramming language's need for a mechanism to ease collaborative integration.")
     sl.header("Python's Need for a Code Integrator:")
-    sl.text("Python's high rate of issues per contributor and issues per project highlight its \nneed for a code integrator. I suspect that the reason for Python's high rate of \nissue's per contributor results from the difficultly in integrating one's code to \nanother. I have experienced this myself when working on various group projects and\nknow that it is mainly a stylistic discrepancy that results in the integration \ndifficulty. While the Python community has tried to push a standardized form of \ncode style, it is difficult for many experienced coders to adjust their styles and \nmany beginner coders do not even know that such a standardization exists. Thus, a \nprogram that can automatically convert any python code to a standardized format \nwould be extremely useful in eliminating code integration errors. Such a program \ncould be made by using machine learning technology and could easily be trained on \nthe enormous amount of public python programs. It would provide a massive amount of\nvalue to the Python community and allow people to spend more time coding \nand innovating than debugging.")
+    sl.text("Python's high rate of issues per contributor and issues per project highlight its \nneed for a code integrator. I suspect that the reason for Python's high rate of \nissues per contributor results from the difficultly in integrating one's code to \nanother. I have experienced this myself when working on various group projects and\nknow that it is mainly a stylistic discrepancy that results in the integration \ndifficulty. While the Python community has tried to push a standardized form of \ncoding style, it is difficult for many experienced coders to adjust their styles and \nmany beginner coders do not even know that such a standardization exists. Thus, a \nprogram that can automatically convert any python code to a standardized format \nwould be extremely useful in eliminating code integration errors. Such a program \ncould be made by using machine learning technology and could easily be trained on \nthe enormous amount of public python programs. It would provide a massive amount of\nvalue to the Python community and allow people to spend more time coding \nand innovating than debugging.")
 
     # fig2, ax2 = plt.subplots()
     # ax2.scatter(data["forks_count"],data["issues_count"],s=3)

@@ -32,7 +32,7 @@ def main():
     
     sl.title("Python's Need for A Code Integrator:")
     sl.subheader("By Christian Carbeau")
-    sl.caption("Mechanical Engineering and Computer Science major, Duke University Class of 2026")
+    sl.caption("Mechanical Engineering and Computer Science Major, Duke University Class of 2026")
 
 
     labels = "JavaScript", "Python", "HTML", "Java", "C Variants", "Other"

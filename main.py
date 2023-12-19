@@ -71,7 +71,7 @@ def main():
     # sl.text(b)
 
     sl.header("What Leads to Poor Python Code?")
-    sl.text("The most surprising metric I noticed in this dataset was that the highest \ncontributing factor to a repository's issue count was the amount of contributors it\nhad. The figure below shows a scatter plot of every repositorys' number of \ncontributors plotted against its number of issues as well as a line of best fit.")
+    sl.text("The most surprising metric I noticed in this dataset was that the highest \ncontributing factor to a repository's issue count was the amount of contributors it\nhad. The figure below shows a scatter plot of every repositoryies' number of \ncontributors plotted against its number of issues as well as a line of best fit.")
     sl.pyplot(fig)
     sl.text("The slope of the line of best fit is 0.247 and has a correlation of +0.444. Both of\nthese values were the highest out of any other x-axis metric.")
 
